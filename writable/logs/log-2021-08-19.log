@@ -1,0 +1,96 @@
+CRITICAL - 2021-08-19 07:19:42 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\prive\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\prive\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\prive\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-08-19 19:58:29 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-08-19 19:59:21 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-08-19 20:09:14 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2021-08-19 20:09:14 --> Call to undefined method CodeIgniter\Email\Email::print_debugger()
+#0 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->email()
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-08-19 20:13:25 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-08-19 20:27:36 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL: The operation completed successfully.
+
+ERROR - 2021-08-19 20:29:25 --> Email: sendWithSmtp throwed A non well formed numeric value encountered
+ERROR - 2021-08-19 20:29:28 --> Email: sendWithSmtp throwed A non well formed numeric value encountered
+ERROR - 2021-08-19 20:29:31 --> Email: sendWithSmtp throwed A non well formed numeric value encountered
+ERROR - 2021-08-19 20:30:44 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`mail.modena.co.id' did not match expected CN=`mail3.modena.co.id'
+ERROR - 2021-08-19 20:43:31 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`mail.modena.co.id' did not match expected CN=`mail3.modena.co.id'
+ERROR - 2021-08-19 20:44:56 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+ERROR - 2021-08-19 20:47:37 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`mail.modena.co.id' did not match expected CN=`mail3.modena.co.id'
+ERROR - 2021-08-19 20:59:23 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`mail.modena.co.id' did not match expected CN=`mail3.modena.co.id'
+ERROR - 2021-08-19 20:59:26 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`mail.modena.co.id' did not match expected CN=`mail3.modena.co.id'
+CRITICAL - 2021-08-19 21:37:51 --> Use of undefined constant host - assumed 'host' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\prive\app\Controllers\Admin\Kirim_email.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(908): App\Controllers\Admin\Kirim_email->__construct()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-19 21:38:55 --> Use of undefined constant smtphost - assumed 'smtphost' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\prive\app\Controllers\Admin\Kirim_email.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(908): App\Controllers\Admin\Kirim_email->__construct()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-19 21:38:57 --> Use of undefined constant smtphost - assumed 'smtphost' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\prive\app\Controllers\Admin\Kirim_email.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(908): App\Controllers\Admin\Kirim_email->__construct()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-19 21:38:58 --> Use of undefined constant smtphost - assumed 'smtphost' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\prive\app\Controllers\Admin\Kirim_email.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(908): App\Controllers\Admin\Kirim_email->__construct()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-19 21:41:53 --> Use of undefined constant host - assumed 'host' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\prive\app\Controllers\Admin\Kirim_email.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(908): App\Controllers\Admin\Kirim_email->__construct()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-19 21:41:54 --> Use of undefined constant host - assumed 'host' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\prive\app\Controllers\Admin\Kirim_email.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(908): App\Controllers\Admin\Kirim_email->__construct()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-19 21:41:55 --> Use of undefined constant host - assumed 'host' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\prive\app\Controllers\Admin\Kirim_email.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(908): App\Controllers\Admin\Kirim_email->__construct()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-19 22:05:50 --> syntax error, unexpected ']', expecting ')'
+#0 C:\xampp\htdocs\prive\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\prive\system\Common.php(1217): CodeIgniter\View\View->render('email/voucher', Array, true)
+#2 C:\xampp\htdocs\prive\app\Controllers\Admin\Kirim_email.php(35): view('email/voucher')
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Kirim_email->index()
+#4 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kirim_email))
+#5 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#8 {main}

@@ -1,0 +1,1738 @@
+CRITICAL - 2021-09-22 09:12:48 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 09:13:40 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 09:15:21 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 09:52:08 --> Trying to get property 'syaratketentuan' of non-object
+#0 C:\xampp\htdocs\crm_dev\app\Views\home\index.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 144, Array)
+#1 C:\xampp\htdocs\crm_dev\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\crm_dev\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\crm_dev\system\Common.php(1217): CodeIgniter\View\View->render('home/index', Array, true)
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\Home.php(25): view('home/index', Array)
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-22 09:52:30 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 09:52:59 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 09:54:16 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 09:59:32 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:07:49 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:09:04 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:10:13 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:11:46 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:12:55 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:13:40 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:14:23 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:16:08 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:16:34 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:18:02 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:20:18 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:23:38 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:24:48 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:24:58 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:26:05 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:26:53 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:28:18 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:30:18 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:30:32 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:31:31 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 10:39:01 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:10:45 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:10:46 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:10:46 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:10:52 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:10:58 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:12:14 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:12:16 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:12:20 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:12:21 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:12:38 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:13:27 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:13:58 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:14:26 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:16:19 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:17:07 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:17:26 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:18:11 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:18:29 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:18:43 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:19:46 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:20:08 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:20:09 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:20:18 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:21:52 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:23:41 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:23:51 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:24:08 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:24:31 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:25:30 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:25:32 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:25:34 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:34:26 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:34:58 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:35:00 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:35:01 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:35:01 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:35:17 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:36:47 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:36:48 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:36:48 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:38:23 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:42:14 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:43:08 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:46:17 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:46:25 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:46:29 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:46:32 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:47:57 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:51:42 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:51:55 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:58:39 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:58:59 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:59:09 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 11:59:33 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:01:04 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:01:07 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:01:23 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:02:32 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:02:48 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:03:48 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:04:38 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:04:56 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:05:08 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:06:03 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:08:44 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:09:46 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:10:55 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:12:47 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:12:53 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:14:05 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:14:08 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:14:54 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:15:54 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:15:56 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-09-22 12:16:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'BANTEN'.
+CRITICAL - 2021-09-22 12:16:58 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:17:01 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:19:08 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:19:51 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-09-22 12:20:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'BANTEN'.
+CRITICAL - 2021-09-22 12:22:06 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:22:07 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-09-22 12:22:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'dbo.SP_CRM_CUSTOMER_UPDATE_FREE_SVC'.
+CRITICAL - 2021-09-22 12:23:50 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:23:51 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 12:24:21 --> Cannot use object of type CodeIgniter\Database\SQLSRV\Result as array
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\Customers.php(153): App\Controllers\Customers->updateCsms(Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\Customers->register()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:08:28 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:08:29 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:08:31 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:15:06 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:20:32 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:25:20 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:26:27 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:26:57 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:27:02 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:27:14 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:28:36 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:28:42 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:29:42 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:29:44 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:29:50 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:32:24 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:34:47 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:37:48 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:45:14 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:58:09 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 13:59:46 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 15:33:04 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 15:34:11 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 15:35:25 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 15:53:58 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:01:06 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:08:15 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:08:27 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:08:35 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:11:46 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:11:53 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:11:55 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:12:06 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:12:21 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:13:38 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:14:01 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:14:01 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:14:01 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:14:07 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:14:17 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:15:17 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:16:37 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:16:58 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:21:42 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-09-22 16:22:18 --> mysqli_sql_exception: Table 'crm_dev.vouchers' doesn't exist in C:\xampp\htdocs\crm_dev\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\crm_dev\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\crm_dev\app\Models\Voucher_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crm_dev\app\Controllers\Admin\Voucher.php(31): App\Models\Voucher_model->listing()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\Admin\Voucher->index()
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Voucher))
+#8 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-09-22 16:22:18 --> Table 'crm_dev.vouchers' doesn't exist
+#0 C:\xampp\htdocs\crm_dev\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\crm_dev\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\crm_dev\app\Models\Voucher_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crm_dev\app\Controllers\Admin\Voucher.php(31): App\Models\Voucher_model->listing()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\Admin\Voucher->index()
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Voucher))
+#8 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-09-22 16:24:00 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:24:55 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:25:21 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:26:08 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:27:09 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:39:41 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:40:37 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:40:40 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:41:22 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:41:26 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:41:45 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:42:43 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:43:20 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:43:44 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:43:48 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:44:55 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:48:17 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:48:28 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:48:53 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:49:03 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:49:52 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:53:02 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:53:19 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:53:40 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:53:45 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:53:56 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:54:00 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:54:07 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:54:11 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:54:20 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:54:22 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:55:13 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:56:39 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 16:57:41 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:04:13 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:04:46 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:04:58 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:05:08 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:05:12 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:05:18 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:06:51 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:08:28 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:08:55 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:11:13 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:11:41 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:13:12 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:13:20 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:13:24 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:13:30 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:13:48 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:15:23 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:15:38 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:15:41 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:16:02 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:16:40 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 17:17:42 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-22 19:42:43 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}

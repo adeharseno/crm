@@ -1,0 +1,58 @@
+CRITICAL - 2021-09-13 09:27:23 --> Undefined property: App\Controllers\Admin\Testing::$csms
+#0 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 185, Array)
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->wablast()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-13 09:31:56 --> csms is not a valid database connection group.
+#0 C:\xampp\htdocs\prive\app\Controllers\Admin\BaseController.php(50): CodeIgniter\Database\Config::connect('csms')
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(909): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-13 11:52:11 --> Undefined variable: alamat
+#0 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(190): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 190, Array)
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->insert()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-13 14:13:07 --> Undefined variable: par
+#0 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 185, Array)
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->insert()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-09-13 15:13:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function CHATBOT_API_CSMS_INSERT_CUSTOMER_FULL has too many arguments specified.
+CRITICAL - 2021-09-13 15:13:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function CHATBOT_API_CSMS_INSERT_CUSTOMER_FULL has too many arguments specified.
+#0 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('\r\n\t\t\t\tSET nocou...')
+#1 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n\t\t\t\tSET nocou...')
+#2 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(213): CodeIgniter\Database\BaseConnection->query('\r\n\t\t\t\tSET nocou...')
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->insert()
+#4 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#5 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-13 15:40:01 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Customers->register()
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-09-13 15:56:03 --> Undefined variable: session
+#0 C:\xampp\htdocs\prive\app\Controllers\Customers.php(221): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 221, Array)
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Customers->register()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}

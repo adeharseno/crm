@@ -1,0 +1,31 @@
+ERROR - 2021-08-11 14:12:22 --> mysqli_sql_exception: Table 'demo_lima.users' doesn't exist in engine in C:\xampp\htdocs\demo5\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\demo5\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\demo5\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\demo5\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\demo5\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\demo5\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\demo5\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\demo5\app\Models\User_model.php(32): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\demo5\app\Controllers\Login.php(33): App\Models\User_model->login('javawebmedia', 'javawebmedia')
+#8 C:\xampp\htdocs\demo5\system\CodeIgniter.php(936): App\Controllers\Login->index()
+#9 C:\xampp\htdocs\demo5\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 C:\xampp\htdocs\demo5\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\demo5\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\demo5\index.php(6): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-08-11 14:12:22 --> Table 'demo_lima.users' doesn't exist in engine
+#0 C:\xampp\htdocs\demo5\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\demo5\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\demo5\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\demo5\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\demo5\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\demo5\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\demo5\app\Models\User_model.php(32): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\demo5\app\Controllers\Login.php(33): App\Models\User_model->login('javawebmedia', 'javawebmedia')
+#8 C:\xampp\htdocs\demo5\system\CodeIgniter.php(936): App\Controllers\Login->index()
+#9 C:\xampp\htdocs\demo5\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 C:\xampp\htdocs\demo5\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\demo5\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\demo5\index.php(6): require_once('C:\\xampp\\htdocs...')
+#13 {main}

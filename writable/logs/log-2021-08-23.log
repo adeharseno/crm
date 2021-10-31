@@ -1,0 +1,362 @@
+CRITICAL - 2021-08-23 07:18:24 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\prive\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\prive\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+CRITICAL - 2021-08-23 07:50:57 --> Call to a member function limit() on array
+#0 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(110): App\Models\Voucher_model->voucher()
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-23 08:15:53 --> Trying to get property 'amount' of non-object
+#0 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 113, Array)
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-23 08:19:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(112): App\Models\Voucher_model->voucher()
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-23 08:20:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRowObject()
+#0 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(112): App\Models\Voucher_model->voucher()
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-23 08:22:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::row()
+#0 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(112): App\Models\Voucher_model->voucher()
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-08-23 08:27:31 --> mysqli_sql_exception: Unknown column 'start_date' in 'field list' in C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `voucher...')
+#1 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `voucher...')
+#2 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `voucher...')
+#3 C:\xampp\htdocs\prive\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `voucher...', Array, false)
+#4 C:\xampp\htdocs\prive\app\Models\Voucher_model.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(112): App\Models\Voucher_model->voucher()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#7 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#8 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-23 08:27:31 --> Unknown column 'start_date' in 'field list'
+#0 C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `voucher...')
+#1 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `voucher...')
+#2 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `voucher...')
+#3 C:\xampp\htdocs\prive\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `voucher...', Array, false)
+#4 C:\xampp\htdocs\prive\app\Models\Voucher_model.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(112): App\Models\Voucher_model->voucher()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#7 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#8 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-23 08:27:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''%d/%m/%Y') as finish
+FROM `vouchers`
+WHERE `status` = 'N'
+ORDER BY `id` ASC
+ LI' at line 1 in C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `voucher...')
+#1 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `voucher...')
+#2 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `voucher...')
+#3 C:\xampp\htdocs\prive\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `voucher...', Array, false)
+#4 C:\xampp\htdocs\prive\app\Models\Voucher_model.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(112): App\Models\Voucher_model->voucher()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#7 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#8 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-23 08:27:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''%d/%m/%Y') as finish
+FROM `vouchers`
+WHERE `status` = 'N'
+ORDER BY `id` ASC
+ LI' at line 1
+#0 C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `voucher...')
+#1 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `voucher...')
+#2 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `voucher...')
+#3 C:\xampp\htdocs\prive\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `voucher...', Array, false)
+#4 C:\xampp\htdocs\prive\app\Models\Voucher_model.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(112): App\Models\Voucher_model->voucher()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#7 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#8 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-23 08:32:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''%d/%M/%Y') as finish as start
+FROM `vouchers`
+WHERE `status` = 'N'
+ORDER BY `id' at line 1 in C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `voucher...')
+#1 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `voucher...')
+#2 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `voucher...')
+#3 C:\xampp\htdocs\prive\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `voucher...', Array, false)
+#4 C:\xampp\htdocs\prive\app\Models\Voucher_model.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(110): App\Models\Voucher_model->voucher()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#7 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#8 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-23 08:32:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''%d/%M/%Y') as finish as start
+FROM `vouchers`
+WHERE `status` = 'N'
+ORDER BY `id' at line 1
+#0 C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `voucher...')
+#1 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `voucher...')
+#2 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `voucher...')
+#3 C:\xampp\htdocs\prive\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `voucher...', Array, false)
+#4 C:\xampp\htdocs\prive\app\Models\Voucher_model.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(110): App\Models\Voucher_model->voucher()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#7 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#8 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-23 08:32:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''%d/%M/%Y') as start
+FROM `vouchers`
+WHERE `status` = 'N'
+ORDER BY `id` ASC
+ LIM' at line 1 in C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `voucher...')
+#1 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `voucher...')
+#2 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `voucher...')
+#3 C:\xampp\htdocs\prive\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `voucher...', Array, false)
+#4 C:\xampp\htdocs\prive\app\Models\Voucher_model.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(110): App\Models\Voucher_model->voucher()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#7 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#8 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-23 08:32:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''%d/%M/%Y') as start
+FROM `vouchers`
+WHERE `status` = 'N'
+ORDER BY `id` ASC
+ LIM' at line 1
+#0 C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `voucher...')
+#1 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `voucher...')
+#2 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `voucher...')
+#3 C:\xampp\htdocs\prive\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `voucher...', Array, false)
+#4 C:\xampp\htdocs\prive\app\Models\Voucher_model.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(110): App\Models\Voucher_model->voucher()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#7 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#8 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-23 08:33:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''%d/%M/%Y') as startx
+FROM `vouchers`
+WHERE `status` = 'N'
+ORDER BY `id` ASC
+ LI' at line 1 in C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `voucher...')
+#1 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `voucher...')
+#2 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `voucher...')
+#3 C:\xampp\htdocs\prive\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `voucher...', Array, false)
+#4 C:\xampp\htdocs\prive\app\Models\Voucher_model.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(110): App\Models\Voucher_model->voucher()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#7 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#8 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-23 08:33:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''%d/%M/%Y') as startx
+FROM `vouchers`
+WHERE `status` = 'N'
+ORDER BY `id` ASC
+ LI' at line 1
+#0 C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `voucher...')
+#1 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `voucher...')
+#2 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `voucher...')
+#3 C:\xampp\htdocs\prive\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `voucher...', Array, false)
+#4 C:\xampp\htdocs\prive\app\Models\Voucher_model.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(110): App\Models\Voucher_model->voucher()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#7 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#8 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-23 08:34:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''%d/%M/%Y') as finish
+FROM `vouchers`
+WHERE `status` = 'N'
+ORDER BY `id` ASC
+ LI' at line 1 in C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `voucher...')
+#1 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `voucher...')
+#2 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `voucher...')
+#3 C:\xampp\htdocs\prive\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `voucher...', Array, false)
+#4 C:\xampp\htdocs\prive\app\Models\Voucher_model.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(110): App\Models\Voucher_model->voucher()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#7 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#8 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-23 08:34:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''%d/%M/%Y') as finish
+FROM `vouchers`
+WHERE `status` = 'N'
+ORDER BY `id` ASC
+ LI' at line 1
+#0 C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `voucher...')
+#1 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `voucher...')
+#2 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `voucher...')
+#3 C:\xampp\htdocs\prive\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `voucher...', Array, false)
+#4 C:\xampp\htdocs\prive\app\Models\Voucher_model.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(110): App\Models\Voucher_model->voucher()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#7 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#8 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-23 08:37:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') as amount, date_format(start_periode, '%d %M %Y') as start, date_format(finish' at line 1 in C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `voucher...')
+#1 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `voucher...')
+#2 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `voucher...')
+#3 C:\xampp\htdocs\prive\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `voucher...', Array, false)
+#4 C:\xampp\htdocs\prive\app\Models\Voucher_model.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(110): App\Models\Voucher_model->voucher()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#7 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#8 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-23 08:37:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') as amount, date_format(start_periode, '%d %M %Y') as start, date_format(finish' at line 1
+#0 C:\xampp\htdocs\prive\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `voucher...')
+#1 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `voucher...')
+#2 C:\xampp\htdocs\prive\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `voucher...')
+#3 C:\xampp\htdocs\prive\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `voucher...', Array, false)
+#4 C:\xampp\htdocs\prive\app\Models\Voucher_model.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(110): App\Models\Voucher_model->voucher()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#7 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#8 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-23 09:23:18 --> syntax error, unexpected 'base_url' (T_STRING)
+#0 C:\xampp\htdocs\prive\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\prive\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\prive\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\prive\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-23 09:25:06 --> syntax error, unexpected '"#amount#"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\prive\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\prive\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\prive\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\prive\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-23 10:39:18 --> Undefined variable: m_customer
+#0 C:\xampp\htdocs\prive\app\Controllers\Customers.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Customers->register()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-23 10:39:54 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\prive\app\Views\home\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\prive\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prive\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prive\system\Common.php(1217): CodeIgniter\View\View->render('home/index', Array, true)
+#4 C:\xampp\htdocs\prive\app\Controllers\Home.php(26): view('home/index', Array)
+#5 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-23 12:08:24 --> Invalid file: email/voucher.php
+#0 C:\xampp\htdocs\prive\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('email/voucher.p...')
+#1 C:\xampp\htdocs\prive\system\Common.php(1217): CodeIgniter\View\View->render('email/voucher', Array, true)
+#2 C:\xampp\htdocs\prive\app\Controllers\Admin\Kirim_email.php(35): view('email/voucher')
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Kirim_email->index()
+#4 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kirim_email))
+#5 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-23 12:09:34 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xampp\htdocs\prive\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\prive\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\prive\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\prive\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-23 12:38:07 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\prive\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\prive\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\prive\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\prive\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-23 13:45:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRowResult()
+#0 C:\xampp\htdocs\prive\app\Controllers\Admin\Testing.php(111): App\Models\Voucher_model->voucher()
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Admin\Testing->coupon()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testing))
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-23 15:29:51 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\prive\app\Controllers\Customers.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Customers->register()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}

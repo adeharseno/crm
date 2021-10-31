@@ -1,0 +1,152 @@
+CRITICAL - 2021-10-12 06:28:51 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 07:30:06 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 08:35:28 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 08:50:45 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 09:07:31 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 09:09:50 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 09:09:55 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 09:43:30 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 10:01:23 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 11:45:37 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 13:08:26 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 13:39:15 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 14:12:33 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 14:44:51 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 15:33:21 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 15:33:27 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 15:47:08 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 16:46:42 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-12 21:19:10 --> Undefined variable: data
+#0 C:\xampp\htdocs\free-membership\app\Controllers\AjaxController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\free-membership\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\free-membership\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\free-membership\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}

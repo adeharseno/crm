@@ -1,0 +1,1332 @@
+CRITICAL - 2021-09-21 10:23:38 --> 22 : The requested URL returned error: 500 Internal Server Error
+#0 C:\xampp\htdocs\crm_dev\system\HTTP\CURLRequest.php(805): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\crm_dev\system\HTTP\CURLRequest.php(418): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\crm_dev\system\HTTP\CURLRequest.php(127): CodeIgniter\HTTP\CURLRequest->send('post', 'http://csms.mod...')
+#3 C:\xampp\htdocs\crm_dev\system\HTTP\CURLRequest.php(219): CodeIgniter\HTTP\CURLRequest->request('post', 'http://csms.mod...', Array)
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(101): CodeIgniter\HTTP\CURLRequest->post('http://csms.mod...', Array)
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 10:23:59 --> 7 : Failed to connect to csms.modena.com port 80: Timed out
+#0 C:\xampp\htdocs\crm_dev\system\HTTP\CURLRequest.php(805): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('7', 'Failed to conne...')
+#1 C:\xampp\htdocs\crm_dev\system\HTTP\CURLRequest.php(418): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\crm_dev\system\HTTP\CURLRequest.php(127): CodeIgniter\HTTP\CURLRequest->send('post', 'http://csms.mod...')
+#3 C:\xampp\htdocs\crm_dev\system\HTTP\CURLRequest.php(219): CodeIgniter\HTTP\CURLRequest->request('post', 'http://csms.mod...', Array)
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(125): CodeIgniter\HTTP\CURLRequest->post('http://csms.mod...', Array)
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchCustomerProfile()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 10:24:20 --> 7 : Failed to connect to csms.modena.com port 80: Timed out
+#0 C:\xampp\htdocs\crm_dev\system\HTTP\CURLRequest.php(805): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('7', 'Failed to conne...')
+#1 C:\xampp\htdocs\crm_dev\system\HTTP\CURLRequest.php(418): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\crm_dev\system\HTTP\CURLRequest.php(127): CodeIgniter\HTTP\CURLRequest->send('post', 'http://csms.mod...')
+#3 C:\xampp\htdocs\crm_dev\system\HTTP\CURLRequest.php(219): CodeIgniter\HTTP\CURLRequest->request('post', 'http://csms.mod...', Array)
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(125): CodeIgniter\HTTP\CURLRequest->post('http://csms.mod...', Array)
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchCustomerProfile()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 11:34:29 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\crm_dev\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\crm_dev\system\Model.php(791): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\crm_dev\app\Models\Ajax_model.php(43): CodeIgniter\Model->__get('csms')
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(103): App\Models\Ajax_model->fetchAllProduct('produk')
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-21 11:34:39 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\crm_dev\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\crm_dev\system\Model.php(791): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\crm_dev\app\Models\Ajax_model.php(43): CodeIgniter\Model->__get('csms')
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(103): App\Models\Ajax_model->fetchAllProduct('produk')
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-21 11:36:32 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\crm_dev\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\crm_dev\system\Model.php(791): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\crm_dev\app\Models\Ajax_model.php(43): CodeIgniter\Model->__get('csms')
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(103): App\Models\Ajax_model->fetchAllProduct('produk')
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-21 11:36:34 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\crm_dev\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\crm_dev\system\Model.php(791): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\crm_dev\app\Models\Ajax_model.php(43): CodeIgniter\Model->__get('csms')
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(103): App\Models\Ajax_model->fetchAllProduct('produk')
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-21 11:36:52 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\crm_dev\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\crm_dev\system\Model.php(791): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\crm_dev\app\Models\Ajax_model.php(43): CodeIgniter\Model->__get('csms')
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(103): App\Models\Ajax_model->fetchAllProduct('produk')
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-21 11:42:47 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\crm_dev\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\crm_dev\system\Model.php(791): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\crm_dev\app\Models\Ajax_model.php(43): CodeIgniter\Model->__get('csms')
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(103): App\Models\Ajax_model->fetchAllProduct('produk')
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-21 11:44:51 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(105): App\Controllers\AjaxController->fetchAllProduct('produk')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 11:44:51 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 11:45:01 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(105): App\Controllers\AjaxController->fetchAllProduct('produk')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 11:45:01 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 11:45:56 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(105): App\Controllers\AjaxController->fetchAllProduct('produk')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 11:45:56 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 11:46:52 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::result_array()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(105): App\Controllers\AjaxController->fetchAllProduct('produk')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 11:46:52 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 11:47:15 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(105): App\Controllers\AjaxController->fetchAllProduct('produk')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 11:47:15 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 11:48:32 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(105): App\Controllers\AjaxController->fetchAllProduct('produk')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 11:48:32 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 11:49:54 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(105): App\Controllers\AjaxController->fetchAllProduct('produk')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 11:49:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 11:51:58 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 11:51:58 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 11:52:47 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('00C0-C0A801C0-5...')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 11:52:47 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 11:58:46 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 11:58:47 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 11:59:33 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 11:59:33 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 11:59:53 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('00C0-C0A801C0-5...')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 11:59:53 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 12:01:23 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 12:01:23 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 12:04:19 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 12:04:19 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 12:07:50 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 12:07:50 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 12:08:00 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 12:08:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 12:10:09 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 12:10:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 12:10:31 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 12:11:04 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 12:11:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 12:11:45 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 12:11:45 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 12:12:35 --> Call to undefined method CodeIgniter\Database\SQLSRV\Builder::query()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 12:12:59 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::get()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 12:12:59 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 12:15:50 --> Array to string conversion
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 150, Array)
+#1 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-21 12:15:50 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 12:17:07 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-21 12:17:07 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT produk_i...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT produk_i...')
+#2 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\BaseConnection->query('SELECT produk_i...')
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-21 12:17:07 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 12:21:12 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-21 12:21:12 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT produk_i...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT produk_i...')
+#2 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\BaseConnection->query('SELECT produk_i...')
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-21 12:21:12 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 12:57:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+CRITICAL - 2021-09-21 12:57:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\SQLSRV\Builder.php(648): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 12:57:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 12:57:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+CRITICAL - 2021-09-21 12:57:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\SQLSRV\Builder.php(648): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 12:57:51 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 12:58:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+CRITICAL - 2021-09-21 12:58:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\SQLSRV\Builder.php(648): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 12:58:15 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 12:58:42 --> Call to undefined method CodeIgniter\Database\SQLSRV\Builder::getResult()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 13:02:26 --> Call to undefined method CodeIgniter\Database\SQLSRV\Builder::getResult()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-09-21 13:03:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+CRITICAL - 2021-09-21 13:03:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\SQLSRV\Builder.php(648): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 13:03:41 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 13:04:13 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 149, Array)
+#1 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-21 13:04:41 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-09-21 13:05:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+CRITICAL - 2021-09-21 13:05:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\SQLSRV\Builder.php(648): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 13:05:03 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 13:06:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+CRITICAL - 2021-09-21 13:06:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\SQLSRV\Builder.php(648): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(150): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 13:06:47 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 13:07:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+CRITICAL - 2021-09-21 13:07:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\SQLSRV\Builder.php(648): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(150): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 13:07:12 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 13:11:21 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 13:11:46 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 13:14:15 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 13:14:48 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-09-21 13:15:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+CRITICAL - 2021-09-21 13:15:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\SQLSRV\Builder.php(648): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 13:15:18 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 13:15:35 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 13:16:09 --> Call to undefined method CodeIgniter\Database\SQLSRV\Builder::query()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-09-21 13:16:37 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-21 13:16:37 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT produk_i...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT produk_i...')
+#2 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\BaseConnection->query('SELECT produk_i...')
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-21 13:16:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 13:16:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+CRITICAL - 2021-09-21 13:16:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\SQLSRV\Builder.php(648): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 13:16:53 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 13:17:28 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 13:21:07 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-09-21 13:22:43 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-21 13:22:43 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\SQLSRV\Builder.php(648): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 13:22:43 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 13:27:36 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-21 13:27:36 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\SQLSRV\Builder.php(648): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 13:27:36 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 13:32:51 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-21 13:32:51 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT produk_i...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT produk_i...')
+#2 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(146): CodeIgniter\Database\BaseConnection->query('SELECT produk_i...')
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-21 13:32:51 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 13:33:08 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-21 13:33:08 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT produk_i...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT produk_i...')
+#2 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(146): CodeIgniter\Database\BaseConnection->query('SELECT produk_i...')
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-21 13:33:08 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 13:35:30 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-21 13:35:30 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT produk_i...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT produk_i...')
+#2 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(146): CodeIgniter\Database\BaseConnection->query('SELECT produk_i...')
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-21 13:35:30 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 13:38:01 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-21 13:38:01 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT produk_i...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT produk_i...')
+#2 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(146): CodeIgniter\Database\BaseConnection->query('SELECT produk_i...')
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-21 13:38:01 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 13:54:55 --> Undefined property: App\Controllers\AjaxController::$db1
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 149, Array)
+#1 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-09-21 13:55:16 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-21 13:55:16 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT produk_i...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT produk_i...')
+#2 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\BaseConnection->query('SELECT produk_i...')
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-21 13:55:16 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 13:57:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+CRITICAL - 2021-09-21 13:57:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\SQLSRV\Builder.php(648): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 13:57:49 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 13:58:23 --> Call to undefined method CodeIgniter\Database\SQLSRV\Builder::getResult()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-09-21 13:58:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+CRITICAL - 2021-09-21 13:58:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\SQLSRV\Builder.php(648): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 13:58:36 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 13:59:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+CRITICAL - 2021-09-21 13:59:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\SQLSRV\Builder.php(648): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 13:59:13 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 14:01:50 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+CRITICAL - 2021-09-21 14:01:50 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "konsume...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "konsume...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\SQLSRV\Builder.php(648): CodeIgniter\Database\BaseConnection->query('SELECT "konsume...', Array, false)
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 14:01:50 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 14:03:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+CRITICAL - 2021-09-21 14:03:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'db_konsumen'.
+#0 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "konsume...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "konsume...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\SQLSRV\Builder.php(648): CodeIgniter\Database\BaseConnection->query('SELECT "konsume...', Array, false)
+#3 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#5 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-21 14:03:13 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\crm_dev\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\crm_dev\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 14:04:42 --> mysqli_sql_exception: Table 'crm_dev.customer' doesn't exist in C:\xampp\htdocs\crm_dev\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\crm_dev\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\crm_dev\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#8 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-09-21 14:04:42 --> Table 'crm_dev.customer' doesn't exist
+#0 C:\xampp\htdocs\crm_dev\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\crm_dev\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\crm_dev\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(149): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#6 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#7 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#8 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-09-21 14:04:59 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(150): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 150, Array)
+#1 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): App\Controllers\AjaxController->fetchAllProduct('')
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#4 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-21 14:05:21 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 14:27:59 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 14:47:31 --> syntax error, unexpected ',', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\crm_dev\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('AjaxController/...')
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('AjaxController/...')
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 14:48:01 --> Undefined variable: select
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 14:59:36 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 15:00:15 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 15:02:51 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 15:03:04 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 15:03:19 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 15:03:33 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 15:04:11 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-21 15:33:19 --> Undefined variable: data
+#0 C:\xampp\htdocs\crm_dev\app\Controllers\AjaxController.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(936): App\Controllers\AjaxController->fetchProduct()
+#2 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\crm_dev\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\crm_dev\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\crm_dev\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}

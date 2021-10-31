@@ -1,0 +1,19 @@
+CRITICAL - 2021-09-14 07:35:57 --> Call to a member function addBCC() on null
+#0 C:\xampp\htdocs\prive\app\Controllers\Customers.php(209): App\Controllers\Customers->send(Array)
+#1 C:\xampp\htdocs\prive\system\CodeIgniter.php(936): App\Controllers\Customers->register()
+#2 C:\xampp\htdocs\prive\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+#3 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-14 07:45:23 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\prive\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\prive\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\prive\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\prive\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\prive\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prive\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\prive\index.php(6): require_once('C:\\xampp\\htdocs...')
+#9 {main}

@@ -1,0 +1,16 @@
+CRITICAL - 2021-08-08 17:05:33 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\demo5\app\Controllers\Admin\Staff.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\demo5\system\CodeIgniter.php(936): App\Controllers\Admin\Staff->index()
+#2 C:\xampp\htdocs\demo5\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Staff))
+#3 C:\xampp\htdocs\demo5\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\demo5\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\demo5\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-08 17:06:02 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\demo5\app\Controllers\Admin\Staff.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\demo5\system\CodeIgniter.php(936): App\Controllers\Admin\Staff->index()
+#2 C:\xampp\htdocs\demo5\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Staff))
+#3 C:\xampp\htdocs\demo5\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\demo5\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\demo5\index.php(6): require_once('C:\\xampp\\htdocs...')
+#6 {main}
