@@ -35,6 +35,8 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/admin', 'Admin/Dasbor::index');
 $routes->add('admin/customer', 'Customers::index');
+$routes->get('admin/campaigns', 'Admin/Campaigns::sales');
+$routes->post('admin/campaigns/submit', 'Admin/Campaigns::submit');
 $routes->add('cust-register', 'Customers::register');
 $routes->add('voucher', 'Admin/Voucher::index');
 //$routes->add('email', 'Admin/Testing::email');

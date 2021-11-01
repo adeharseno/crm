@@ -60,6 +60,14 @@ $site         = $konfigurasi->listing();
               <p>Banner</p>
             </a>
           </li>
+          <?php if ($session->get('akses_level') == 'admin_sales') {?>
+          <li class="nav-item">
+            <a href="<?php echo base_url('admin/campaigns') ?>" class="nav-link">
+              <i class="nav-icon fas fa-lightbulb"></i>
+              <p>Campaign Sales</p>
+            </a>
+          </li>
+          <?php } ?>
           <?php if ($session->get('akses_level') == 'Admin') {?>
           <!-- pengguna -->
           <li class="nav-item">
