@@ -52,6 +52,7 @@ echo csrf_field();
 						<select name="akses_level" class="form-control">
 							<option value="Admin">Admin</option>
 							<option value="User">User</option>
+							<option value="admin_sales">Sales Admin</option>
 						</select>
 					</div>
 				</div>

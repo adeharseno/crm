@@ -20,9 +20,12 @@ class Admin_form_model extends Model
         return $query->getResultArray();
     }
 
-    public function detail($id)
+    public function detail($code)
     {
+        $builder = $this->db->table('admin_form');
+        $builder->where('generate_code', $code);
 
+        return $builder->get()->getRowArray();
     }
 
     public function tambah($data)

@@ -6,6 +6,7 @@
 			<th>Alamat</th>
 			<th>Produk</th>
 			<th>Kritik & Saran</th>
+			<th>Invoice</th>
 			<th width="10%"></th>
 		</tr>
 	</thead>
@@ -36,6 +37,11 @@
 			</td>
 			<td>
 				<?php echo $row['kritiksaran'] ?>
+			</td>
+			<td>
+				<?php if($row['file']=="") { echo '-'; }else{ ?>
+					<img src="<?php echo base_url('assets/upload/image/thumbs/'.$row['file']) ?>" class="img img-thumbnail">
+				<?php } ?>
 			</td>
 			<!-- <td><?php echo $row['nama'] ?></td> -->
 			<td>	

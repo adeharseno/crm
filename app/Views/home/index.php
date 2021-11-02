@@ -45,14 +45,14 @@
             }
         ?>
         <?php 
-          echo form_open(base_url('cust-register')); 
+          echo form_open(base_url('cust-register'), ['enctype' => 'multipart/form-data']); 
           echo csrf_field(); 
         ?>
         <label class="mb-4 title" style="font-size: 1.3rem;">Silahkan Isi Data Anda</label>
         <div class="form-group row">
           <div class="col-12 col-md-6 mb-2">
             <label for="handphone" class="required" style="font-weight: bold; font-size: 15px; ">No. Handphone</label>
-            <input type="text" class="form-control numbersOnly" name="handphone" id="handphone" placeholder="08xxxx" autocomplete="off" value="<?php echo set_value('handphone') ?>" required>
+            <input type="text" class="form-control numbersOnly" name="handphone" id="handphone" placeholder="08xxxx" autocomplete="off" value="<?php echo set_value('handphone') ? set_value('handphone') : $detail['phone_number'] ?>" required>
             <label style="font-size: 12px; display: none;" id="not-found">No. Handphone belum terdaftar</label>
             <label style="font-size: 12px; display: none;" id="not-valid">Format No. Handphone tidak valid</label>
           </div>
@@ -130,6 +130,7 @@
             <input type="hidden" id="postalcode_name" name="postalcode_name" value="<?php echo set_value('postalcode_name') ?>">
           </div>
         </div>
+        <input type="hidden" value="<?= $code ?>" name='code'>
         <hr class="solid mt-2 mb-3 d-none">
         <label class="mb-3 d-none" style="font-size: 13px;"><b>Produk yang ingin gratis servis ?</b></label>
         <div class="form-group row d-none">
@@ -158,7 +159,7 @@
           <div class="col-12 col-md-12 mt-2" >
             <label for="uploadinvoice" style="font-weight: bold; font-size: 15px;display:block;margin-bottom: 8px;">Upload Foto Invoice</label>
 
-            <input type="file" name="uploadinvoice" id="uploadinvoice" class="d-none"/> 
+            <input type="file" name="file" id="file" class="d-none"/> 
             <label for="uploadinvoice" class="btn-upload">Select file</label>
             <img src="https://iplbi.or.id/wp-content/plugins/pl-platform/engine/ui/images/image-preview.png" id="imagePreview" alt="Preview Image" width="140px"/>
           </div>

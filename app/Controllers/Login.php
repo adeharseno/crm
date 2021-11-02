@@ -39,6 +39,10 @@ class Login extends BaseController
 				$this->session->set('akses_level',$user['akses_level']);
 				$this->session->set('nama',$user['nama']);
 				$this->session->setFlashdata('sukses', 'Hai '.$user['nama'].', Anda berhasil login');
+
+				if ($user['akses_level'] === 'admin_sales') {
+					return redirect()->to(base_url('admin/campaigns'));
+				}
 				return redirect()->to(base_url('admin'));
 			}else{
 				// jika username password salah

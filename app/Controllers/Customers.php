@@ -49,10 +49,15 @@ class Customers extends BaseController
 	}
 
 	public function register(){
+		$code = isset($_POST['code']) ? $_POST['code'] : null;
+
 		if($this->request->getMethod() === 'post' && $this->validate(
 			[
 				'title' 		=> 'required|min_length[2]',
 				'nama' 		=> 'required|min_length[2]',
+				'file'	 	=> [
+					'max_size[file,4096]'
+				],
 				'email' => [
 		            'label'  => 'Email',
 					'rules'  => 'required|valid_email|min_length[6]',
@@ -98,6 +103,20 @@ class Customers extends BaseController
         	if((int)$reg < 3){
 				$this->db->transBegin();
 				try {
+					$filename = null;
+					if (!empty($_FILES['file']['name'])) {
+						$invoice  	= $this->request->getFile('file');
+						$filename 	= $invoice->getRandomName();
+						$invoice->move(WRITEPATH . '../public/assets/upload/image/',$filename);
+						// Create thumb
+						$image = \Config\Services::image()
+						->withFile(WRITEPATH . '../public/assets/upload/image/'.$filename)
+						->fit(100, 100, 'center')
+						->save(WRITEPATH . '../public/assets/upload/image/thumbs/'.$filename);
+					} else {
+						$this->session->setFlashdata('warning', 'Invoice wajib diupload!');
+						return redirect()->to(base_url('/?code='.$code));
+					}
 					/**register customer */
 					$data = [	
 						'version'		=> 1,
@@ -116,7 +135,8 @@ class Customers extends BaseController
 						'village_id' 		=> $this->request->getPost('village'),
 						'postalcode_id' 	=> $this->request->getPost('postalcode'),
 						'kritiksaran'	=> $this->request->getPost('kritiksaran') != null ? $this->request->getPost('kritiksaran') : null,
-						'date_reg'		=> date('Y-m-d H:i:s')
+						'date_reg'		=> date('Y-m-d H:i:s'),
+						'file'			=> $filename
 					];
 
 					$csms = [
@@ -151,23 +171,23 @@ class Customers extends BaseController
 					
 					//$this->db->transRollback();
 					$this->db->transCommit();
-					$profile = $this->updateCsms($csms);
+					// $profile = $this->updateCsms($csms);
 					$this->m_customer->edit(['id' => $id, 'registered' => 'Y']);
 					$this->session->setFlashdata('sukses','Data telah ditambah');
 
-					return redirect()->to(base_url('/'));
+					return redirect()->to(base_url('/?code='.$code));
 				} catch (\Exception $e) {
 					$this->db->transRollback();
 					die($e->getMessage());
 				}
 			}else{
 				$this->session->setFlashdata('warning', 'Batas maksimal registrasi 3 kali!');
-				return redirect()->to(base_url('/'));
+				return redirect()->to(base_url('/?code='.$code));
 			}
 	    }else{
 	    	$errors = $this->validation->getErrors();
 	    	$this->session->setFlashdata('errors', $errors);
-			return redirect()->to(base_url('/'));
+			return redirect()->to(base_url('/?code='.$code));
 		}
 	}
 
