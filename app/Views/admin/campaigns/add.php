@@ -7,18 +7,7 @@
 		echo form_open(base_url('admin/campaigns/submit')); 
 		echo csrf_field(); 
 	?>
-		<div class="form-group row">
-			<div class="col-12">
-				<label font-weight: bold; font-size: 15px; >Customer Title Code</label>
-				<input type="text" name="customer_title_code" class="form-control" value="<?php echo set_value('customer_title_code') ?>" required>
-			</div>
-		</div>
-		<div class="form-group row">
-			<div class="col-12">
-				<label font-weight: bold; font-size: 15px; >Customer Title</label>
-				<input type="text" name="customer_title" class="form-control" value="<?php echo set_value('customer_title') ?>" required>
-			</div>
-		</div>
+		
 		<div class="form-group row">
 			<div class="col-12">
 				<label font-weight: bold; font-size: 15px; >Customer Name</label>

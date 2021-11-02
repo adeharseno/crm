@@ -117,6 +117,15 @@ $site         = $konfigurasi->listing();
     content:" *";
     color:  #FF0000;
   }
+  .btn-upload {
+    color: white !important;
+    background: #161616 !important;
+    border: 1px solid black !important;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+  }
   </style>
 </head>
 
