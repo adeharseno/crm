@@ -32,6 +32,9 @@ $awal = $sek-100;
     dateFormat: "dd-mm-yy",
     yearRange: "<?php echo $awal ?>:<?php $tahundepan = date('Y')+2; echo $tahundepan; ?>"
   });
+  if( $('.formSalesCampaign').length ) {
+    $('body').addClass('salesCampaign');
+  }
 
 </script>
 <!-- SWEETALERT -->

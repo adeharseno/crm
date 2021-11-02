@@ -50,20 +50,21 @@
         ?>
         <label class="mb-4 title" style="font-size: 1.3rem;">Silahkan Isi Data Anda</label>
         <div class="form-group row">
-          <div class="col-4 col-md-3 mt-2" style="font-weight: bold; font-size: 15px; ">
-            <label for="handphone" class="required">No. Handphone</label>
-          </div>
-          <div class="col-8 col-md-9 mb-2">
+          <div class="col-12 col-md-6 mb-2">
+            <label for="handphone" class="required" style="font-weight: bold; font-size: 15px; ">No. Handphone</label>
             <input type="text" class="form-control numbersOnly" name="handphone" id="handphone" placeholder="08xxxx" autocomplete="off" value="<?php echo set_value('handphone') ?>" required>
             <label style="font-size: 12px; display: none;" id="not-found">No. Handphone belum terdaftar</label>
             <label style="font-size: 12px; display: none;" id="not-valid">Format No. Handphone tidak valid</label>
           </div>
+          <div class="col-12 col-md-6 mb-2">
+            <label for="email" class="required" style="font-weight: bold; font-size: 15px; ">Email</label>
+            <input type="email" class="form-control" name="email" id="email" placeholder="example@domain.com" autocomplete="off" value="<?php echo set_value('email') ?>" disabled required>
+            <label style="font-size: 12px;">Pastikan email Anda benar karena reward akan dikirimkan melalui email</label>
+          </div>
         </div>
         <div class="form-group row">
-          <div class="col-4 col-md-3 mt-2" style="font-weight: bold; font-size: 15px; ">
-            <label for="title" class="required">Title</label>
-          </div>
-          <div class="col-8 col-md-9 mb-2">
+          <div class="col-12 col-md-6 mb-1">
+            <label for="title" class="required" style="font-weight: bold; font-size: 15px; ">Title</label>
             <select class="form-control" name="title" id="title" disabled required>
               <option><?php echo set_value('title') ?></option>
               <option value="220">Bapak</option>
@@ -71,58 +72,33 @@
             </select>
             <input type="hidden" id="title_name" name="title_name">
           </div>
-        </div>
-        <div class="form-group row">
-          <div class="col-4 col-md-3 mt-2" style="font-weight: bold; font-size: 15px; ">
-            <label for="nama" class="required">Nama</label>
-          </div>
-          <div class="col-8 col-md-9 mb-2">
+          <div class="col-12 col-md-6 mb-2">
+            <label for="nama" class="required" style="font-weight: bold; font-size: 15px; ">Nama</label>
             <input type="text" class="form-control" name="nama" id="nama" autocomplete="off" value="<?php echo set_value('nama') ?>" disabled required>
           </div>
         </div>
         <div class="form-group row">
-          <div class="col-4 col-md-3 mt-2" style="font-weight: bold; font-size: 15px; ">
-            <label for="email" class="required">Email</label>
-          </div>
-          <div class="col-8 col-md-9 mb-1">
-            <input type="email" class="form-control" name="email" id="email" placeholder="example@domain.com" autocomplete="off" value="<?php echo set_value('email') ?>" disabled required>
-            <label style="font-size: 12px;">Pastikan email Anda benar karena reward akan dikirimkan melalui email</label>
-          </div>
-        </div>
-        <div class="form-group row">
-          <div class="col-4 col-md-3 mt-1" style="font-weight: bold; font-size: 15px; ">
-            <label for="telepon">No. Telepon</label>
-          </div>
-          <div class="col-8 col-md-9 mb-2">
+          <div class="col-12 col-md-6 mb-2">
+            <label for="telepon" style="font-weight: bold; font-size: 15px; ">No. Telepon</label>
             <input type="text" class="form-control numbersOnly" name="telepon" id="telepon" placeholder="021xxxx" autocomplete="off" value="<?php echo set_value('telepon') ?>" disabled>
           </div>
-        </div>
-        <div class="form-group row">
-          <div class="col-4 col-md-3 mt-2" style="font-weight: bold; font-size: 15px; ">
-            <label for="alamat" class="required">Alamat</label>
-          </div>
-          <div class="col-8 col-md-9 mb-2">
+          <div class="col-12 col-md-6 mb-2">
+            <label for="alamat" class="required" style="font-weight: bold; font-size: 15px; ">Alamat</label>
             <textarea class="form-control" name="alamat" id="alamat" rows="2" autocomplete="off" disabled required>
               <?php echo set_value('alamat') ?>
             </textarea>
           </div>
         </div>
         <div class="form-group row">
-          <div class="col-4 col-md-3 mt-2" style="font-weight: bold; font-size: 15px; ">
-            <label for="province" class="required">Propinsi</label>
-          </div>
-          <div class="col-8 col-md-9 mb-2">
+          <div class="col-12 col-md-6 mb-2">
+            <label for="province" class="required" style="font-weight: bold; font-size: 15px; ">Propinsi</label>
             <select name="province" id="province" class="form-control" disabled required>
             </select>
             <input type="hidden" id="h_province" name="h_province" value="<?php echo set_value('province') ?>">
             <input type="hidden" id="province_name" name="province_name" value="<?php echo set_value('province_name') ?>">
           </div>
-        </div>
-        <div class="form-group row">
-          <div class="col-4 col-md-3 mt-2" style="font-weight: bold; font-size: 15px; ">
-            <label for="district" class="required">Kota</label>
-          </div>
-          <div class="col-8 col-md-9 mb-2">
+          <div class="col-12 col-md-6 mb-2">
+            <label for="district" class="required" style="font-weight: bold; font-size: 15px; ">Kota</label>
             <select name="district" id="district" class="form-control" disabled required>
             </select>
             <input type="hidden" id="h_district" name="h_district" value="<?php echo set_value('district') ?>">
@@ -130,21 +106,15 @@
           </div>
         </div>
         <div class="form-group row">
-          <div class="col-4 col-md-3 mt-2" style="font-weight: bold; font-size: 15px; ">
-            <label for="subdistrict" class="required">Kecamatan</label>
-          </div>
-          <div class="col-8 col-md-9 mb-2">
+          <div class="col-12 col-md-6 mt-2">
+            <label for="subdistrict" class="required" style="font-weight: bold; font-size: 15px; ">Kecamatan</label>
             <select name="subdistrict" id="subdistrict" class="form-control" disabled required>
             </select>
             <input type="hidden" id="h_subdistrict" name="h_subdistrict" value="<?php echo set_value('subdistrict') ?>">
             <input type="hidden" id="subdistrict_name" name="subdistrict_name" value="<?php echo set_value('subdistrict_name') ?>">
           </div>
-        </div>
-        <div class="form-group row">
-          <div class="col-4 col-md-3 mt-2" style="font-weight: bold; font-size: 15px; ">
-            <label for="village" class="required">Kelurahan</label>
-          </div>
-          <div class="col-8 col-md-9 mb-2">
+          <div class="col-12 col-md-6 mt-2">
+            <label for="village" class="required" style="font-weight: bold; font-size: 15px; ">Kelurahan</label>
             <select name="village" id="village" class="form-control" disabled required>
             </select>
             <input type="hidden" id="h_village" name="h_village" value="<?php echo set_value('village') ?>">
@@ -152,19 +122,17 @@
           </div>
         </div>
         <div class="form-group row">
-          <div class="col-4 col-md-3 mt-2" style="font-weight: bold; font-size: 15px; ">
+          <div class="col-12 col-md-6 mt-2" style="font-weight: bold; font-size: 15px; ">
             <label for="postalcode" class="required">Kode Pos</label>
-          </div>
-          <div class="col-8 col-md-9 mb-2">
             <select name="postalcode" id="postalcode" class="form-control" disabled required>
             </select>
             <input type="hidden" id="h_postalcode" name="h_postalcode" value="<?php echo set_value('postalcode') ?>">
             <input type="hidden" id="postalcode_name" name="postalcode_name" value="<?php echo set_value('postalcode_name') ?>">
           </div>
         </div>
-        <hr class="solid mt-2 mb-3">
-        <label class="mb-3" style="font-size: 13px;"><b>Produk yang ingin gratis servis ?</b></label>
-        <div class="form-group row">
+        <hr class="solid mt-2 mb-3 d-none">
+        <label class="mb-3 d-none" style="font-size: 13px;"><b>Produk yang ingin gratis servis ?</b></label>
+        <div class="form-group row d-none">
             <div class="col-4 col-md-3 mt-2" style="font-weight: bold; font-size: 15px; ">
               <label for="product">Produk</label>
             </div>
@@ -181,10 +149,8 @@
         </div>
         <hr class="solid mt-2 mb-3">
         <div class="form-group row">
-          <div class="col-4 col-md-3 mt-2" style="font-weight: bold; font-size: 15px; ">
-            <label for="kritiksaran">Kritik & Saran</label>
-          </div>
-          <div class="col-8 col-md-9 mb-2">
+          <div class="col-12 col-md-12 mt-2" >
+            <label for="kritiksaran" style="font-weight: bold; font-size: 15px; ">Kritik & Saran</label>
             <textarea class="form-control" name="kritiksaran" id="kritiksaran" rows="2" disabled></textarea>
           </div>
         </div>
