@@ -32,6 +32,17 @@ class Customers extends BaseController
 		$this->m_galeri			= New Galeri_model();
 		$this->konfigurasi 		= $this->m_konfigurasi->listing();
 		$this->slider 			= $this->m_galeri->slider();
+
+		$this->mail = new PHPMailer(true);
+        $this->mail->SMTPDebug = SMTP::DEBUG_SERVER;
+        $this->mail->isSMTP();
+        $this->mail->Host       = 'smtp.googlemail.com';   
+        $this->mail->SMTPAuth   = true;
+        $this->mail->Username   = 'modena.contact@gmail.com';
+        $this->mail->Password   = 'm0d3n4idn';
+        $this->mail->SMTPSecure = 'ssl';
+        $this->mail->Port       = 465;
+        $this->mail->Mailer      = 'smtp';
 	}
 
 	public function index(){
@@ -169,6 +180,7 @@ class Customers extends BaseController
 						$this->m_customer->edit($data);
 					}
 					
+					$this->sendEmail($data);
 					//$this->db->transRollback();
 					$this->db->transCommit();
 					// $profile = $this->updateCsms($csms);
@@ -189,6 +201,31 @@ class Customers extends BaseController
 	    	$this->session->setFlashdata('errors', $errors);
 			return redirect()->to(base_url('/?code='.$code));
 		}
+	}
+
+	public function sendEmail($data) 
+	{
+		try {
+            $message = view('email/free_campaign', $data);
+            //$this->mail->AddEmbeddedImage('../assets/upload/voucher.png', "my-attach");
+            //$this->mail->Body = 'Embedded Image: <img alt="PHPMailer" src="cid:my-attach"> Here is an image!';
+            $this->mail->setFrom('support@modena.co.id', 'MODENA Indonesia');
+            $this->mail->addAddress('alfian04@live.com');
+            // Content
+            $this->mail->isHTML(true);
+            $this->mail->Subject = 'Modena Indonesia';
+            //$this->mail->Body    = $message;
+            // $this->mail->AddEmbeddedImage('../assets/upload/voucher.png', "my-attach");
+            $this->mail->Body = $message;
+            $this->mail->send();
+            session()->setFlashdata('success', 'Send Email successfully');
+			return true;
+        } catch (Exception $e) {
+			dd($e);
+            session()->setFlashdata('error', "Send Email failed. Error: ". $this->mail->ErrorInfo);
+			return false;
+            //return redirect()->to('email');
+        }
 	}
 
 	// update 
