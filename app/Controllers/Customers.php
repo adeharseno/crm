@@ -66,9 +66,6 @@ class Customers extends BaseController
 			[
 				'title' 		=> 'required|min_length[2]',
 				'nama' 		=> 'required|min_length[2]',
-				'file'	 	=> [
-					'max_size[file,4096]'
-				],
 				'email' => [
 		            'label'  => 'Email',
 					'rules'  => 'required|valid_email|min_length[6]',
@@ -124,9 +121,6 @@ class Customers extends BaseController
 						->withFile(WRITEPATH . '../public/assets/upload/image/'.$filename)
 						->fit(100, 100, 'center')
 						->save(WRITEPATH . '../public/assets/upload/image/thumbs/'.$filename);
-					} else {
-						$this->session->setFlashdata('warning', 'Invoice wajib diupload!');
-						return redirect()->to(base_url('/?code='.$code));
 					}
 					/**register customer */
 					$data = [	
@@ -147,7 +141,8 @@ class Customers extends BaseController
 						'postalcode_id' 	=> $this->request->getPost('postalcode'),
 						'kritiksaran'	=> $this->request->getPost('kritiksaran') != null ? $this->request->getPost('kritiksaran') : null,
 						'date_reg'		=> date('Y-m-d H:i:s'),
-						'file'			=> $filename
+						'file'			=> $filename,
+						'giveaway_code' => $this->generateGiveawayCode()
 					];
 
 					$csms = [
@@ -210,7 +205,7 @@ class Customers extends BaseController
             //$this->mail->AddEmbeddedImage('../assets/upload/voucher.png', "my-attach");
             //$this->mail->Body = 'Embedded Image: <img alt="PHPMailer" src="cid:my-attach"> Here is an image!';
             $this->mail->setFrom('support@modena.co.id', 'MODENA Indonesia');
-            $this->mail->addAddress('alfian04@live.com');
+            $this->mail->addAddress($data['email']);
             // Content
             $this->mail->isHTML(true);
             $this->mail->Subject = 'Modena Indonesia';
@@ -221,7 +216,6 @@ class Customers extends BaseController
             session()->setFlashdata('success', 'Send Email successfully');
 			return true;
         } catch (Exception $e) {
-			dd($e);
             session()->setFlashdata('error', "Send Email failed. Error: ". $this->mail->ErrorInfo);
 			return false;
             //return redirect()->to('email');
@@ -279,4 +273,26 @@ class Customers extends BaseController
 		$this->session->setFlashdata('sukses','Data telah dihapus');
 		return redirect()->to(base_url('admin/customer'));
 	}
+
+	public function generateGiveawayCode() 
+	{
+		$code = $this->generateRandomString(5);
+		$existCode = $this->m_customer->giveawayExist($code);
+		if ($existCode) {
+			$this->generateGiveawayCode();
+		}
+
+		return $code;
+	}
+
+	function generateRandomString($length = 10) 
+	{
+        $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+        for ($i = 0; $i < $length; $i++) {
+            $randomString .= $characters[rand(0, $charactersLength - 1)];
+        }
+        return $randomString;
+    }
 }

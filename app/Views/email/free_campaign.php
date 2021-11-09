@@ -548,7 +548,7 @@
                                                                                                 <h3 style="text-align: center;">Thank you for filing in our form!</h3>
                                                                                                 <p style="text-align: center;"></p>
                                                                                                 <p style="text-align: center;">Berikut kode giveaway Anda</p>
-                                                                                                <p style="text-align: center;"><strong>{{ code }}</strong></p>
+                                                                                                <p style="text-align: center;"><strong><?= $giveaway_code ?></strong></p>
                                                                                                 <p style="text-align: center;">Berbagai informasi program dan penawaran terbaru dari MODENA siap meluncur ke inbox Anda.</p>
                                                                                                 <p style="padding-bottom: 0; text-align: center;">Nantikan juga pengumuman pemenang</p>
                                                                                             </td>

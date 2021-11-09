@@ -52,4 +52,12 @@ class Customer_model extends Model
         $builder->where('id',$data['id']);
         $builder->update($data);
     }
+
+    public function giveawayExist($code)
+    {
+        $builder = $this->db->table('customers');
+        $builder->where('giveaway_code',$code);
+        $query = $builder->get();
+        return $query->getResult();
+    }
 }
