@@ -156,7 +156,7 @@
             <textarea class="form-control" name="kritiksaran" id="kritiksaran" rows="2" disabled></textarea>
           </div>
         </div>
-        <div class="form-group row">
+        <!-- <div class="form-group row">
           <div class="col-12 col-md-12 mt-2" >
             <label for="uploadinvoice" style="font-weight: bold; font-size: 15px;display:block;margin-bottom: 8px;">Upload Foto Invoice</label>
 
@@ -164,7 +164,7 @@
             <label for="uploadinvoice" class="btn-upload">Select file</label>
             <img src="https://iplbi.or.id/wp-content/plugins/pl-platform/engine/ui/images/image-preview.png" id="imagePreview" alt="Preview Image" width="140px"/>
           </div>
-        </div>
+        </div> -->
         <hr class="solid mt-2 mb-3">
         <div class="form-group">
           <label for="syarat" style="font-weight: bold;" class="mb-2 mt-2">Syarat & Ketentuan</label>
