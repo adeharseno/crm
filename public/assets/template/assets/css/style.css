@@ -574,7 +574,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 992px) {
   #hero {
-    height: 235px;
+    height: 380px;
   }
   #hero .container {
     margin-top: 100px;
@@ -589,7 +589,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 680px){
   #hero {
-    height: 34.5vw;
+    height: 300px;
   }
   .carousel-item{
     width: 100vw;
@@ -599,7 +599,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1024px) {
   #hero {
     /* height: 100vh; */
-    height: 235px;
+    height: 380px;
   }
   #hero .carousel-control-prev, #hero .carousel-control-next {
     width: 5%;

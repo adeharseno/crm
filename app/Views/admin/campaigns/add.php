@@ -1,8 +1,10 @@
 <div class="formSalesCampaign">
 	<div class="navbar-sales">
-		<a href="" class="logo me-auto"><span></span></a>
+		<a href="" class="logo me-auto">
+			<span style="background-image: url('<?php echo base_url() ?>/assets/admin/img/modena.png');"></span>
+		</a>
 	</div>
-	<div class="banner-sales"></div>
+	<div class="banner-sales" style="background-image: url('<?php echo base_url() ?>/assets/admin/img/Banner.jpg');"></div>
 	<?php 
 		echo form_open(base_url('admin/campaigns/submit')); 
 		echo csrf_field(); 

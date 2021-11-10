@@ -13,7 +13,8 @@
       <div class="carousel-inner" role="listbox">
         <?php $noslide=1; foreach($slider as $slider) {  ?>
         <!-- Slide 1 -->
-        <div class="carousel-item<?php if($noslide==1) { echo ' active'; } ?>" style="background-image: url(<?php echo base_url('assets/upload/image/'.$slider['gambar']) ?>)">
+        <div class="carousel-item<?php if($noslide==1) { echo ' active'; } ?>" style="background-image: url(<?php echo base_url() ?>/assets/admin/img/Banner.jpg)">
+        <!-- <div class="carousel-item<?php //if($noslide==1) { echo ' active'; } ?>" style="background-image: url(<?php //echo base_url('assets/upload/image/'.$slider['gambar']) ?>)"> -->
             <div class="container" style="text-align: left; padding-left: 2%; padding-right: 2%;">
                 <!-- <h2><?php echo $slider['judul_galeri'] ?></h2> -->
             </div>
